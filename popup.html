@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="popup">
+    <div class="header">
+      <img id="favicon" />
+      <div id="currentTab"></div>
+    </div>
+
+    <div class="line"></div>
+    <div id="to" class="feature">ADD TAB TO :</div>
+    <div class="line"></div>
+
+    <div id="overlay">
+      <div id="createSession">
+        <label for="userInput">Enter session's name :</label>
+        <input type="text" id="userInput" />
+        <button id="saveLocal">SAVE</button>
+      </div>
+    </div>
+
+    <div id="scroll" class="scrollbar">
+      <div class="force-overflow"></div>
+    </div>
+
+    <p id="or" class="feature">OR :</p>
+
+    <button id="bin">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="32"
+        height="32"
+        viewBox="0 0 48 48"
+      >
+        <path
+          fill="#f44336"
+          d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"
+        ></path>
+        <path
+          fill="#fff"
+          d="M29.656,15.516l2.828,2.828l-14.14,14.14l-2.828-2.828L29.656,15.516z"
+        ></path>
+        <path
+          fill="#fff"
+          d="M32.484,29.656l-2.828,2.828l-14.14-14.14l2.828-2.828L32.484,29.656z"
+        ></path>
+      </svg>
+    </button>
+
+    <button id="save">
+      <svg
+        class="download"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 16 18"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 1v11m0 0 4-4m-4 4L4 8m11 4v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3"
+        />
+      </svg>
+      SAVE SESSION
+    </button>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

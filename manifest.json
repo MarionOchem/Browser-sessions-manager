@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Session_Manager",
+  "version": "1.0",
+  "icons": {
+    "16": "browse_folder.png"
+  },
+  "description": "Save all your tabs to a session or add curent tab to an existing session",
+  "permissions": ["tabs", "activeTab", "scripting", "storage", "favicon"],
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}
