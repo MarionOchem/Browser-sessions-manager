@@ -6,14 +6,14 @@ It aims to enhance more dynamic and organised browser-based research.
 
 
 
+## Features : 
+* Display current active tab title and favicon.
+* Scrollable display of already existing sessions.
+* Each session can be singularly deleted, updated or expanded and have a tracker of the number of tabs it contains.
+* Save a new session under a custom name.
+* Delete all existing sessions.
 
-* Features : 
-- Display current active tab title and favicon.
-- Scrollable display of already existing sessions.
-- Each session can be singularly deleted, updated or expanded and have a tracker of the number of tabs it contains.
-- Save a new session under a custom name.
-- Delete all existing sessions.
-
+![](images/Screenshot_readme/Screenshot_SessionManager.png)
 
 
 
