@@ -21,4 +21,4 @@ It aims to enhance more dynamic and organised browser-based research.
 5. Find and select the extension folder.
 6. Open a new tab in Chrome > click Extensions > click on the Session_Manager extension. Make sure it loads and works correctly.
 
-![](Images/Screenshot_readme/Screenshot_SessionManager.png)
+![](Screenshot_SessionManager.png)
