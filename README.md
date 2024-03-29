@@ -13,13 +13,12 @@ It aims to enhance more dynamic and organised browser-based research.
 * Save a new session under a custom name.
 * Delete all existing sessions.
 
-![](images/Screenshot_readme/Screenshot_SessionManager.png)
 
-
-
-* Install the extension :
+## Install the extension :
 1. Open the control panel of your browser and select the "Extensions" manager OR Go to chrome://extensions/.
 2. At the top right, turn on "Developer mode".
 4. Click "Load Unpacked".
 5. Find and select the extension folder.
 6. Open a new tab in Chrome > click Extensions > click on the Session_Manager extension. Make sure it loads and works correctly.
+
+![](Images/Screenshot_readme/Screenshot_SessionManager.png)
